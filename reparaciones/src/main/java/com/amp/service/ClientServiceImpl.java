@@ -20,8 +20,8 @@ public class ClientServiceImpl implements ClientService {
 	public ClientServiceImpl() {
 		clients = new ArrayList<Client>();
 
-		clients.add(new Client(1, "Maxi"));
-		clients.add(new Client(2, "Jose"));
+		clients.add(new Client(1, "Maxi","perez", "concordia 1270",31112604,435265,123123,"unemail@hotmail.com"));
+		clients.add(new Client(2, "Jose","perez", "concordia 1270",31112604,435265,123123,"unemail@hotmail.com"));
 
 	}
 
